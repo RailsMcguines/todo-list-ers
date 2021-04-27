@@ -1,0 +1,19 @@
+.alto{
+    height: 100px;
+}
+
+.main-title{
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 80px;
+}
+
+.autor{
+margin: auto;
+color:rgb(26, 26, 26) !important;
+text-align: center !important;
+}
+
+.tech{
+    width:156px;
+}
