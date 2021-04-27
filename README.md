@@ -1,4 +1,4 @@
-# PRÁCTICA CON REACT.JS | MERN | PILAR TEC
+# Práctica con React.js | MERN | PILaR-TeC
 
 Simple ejemplo de operaciones CRUD sobre datos no persistentes.
 
