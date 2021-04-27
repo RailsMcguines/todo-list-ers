@@ -4,6 +4,8 @@ Simple ejemplo de operaciones CRUD sobre datos no persistentes.
 
 <img src="public/portada.jpg" width=400 />
 
+El resultado aquí:
+https://railsmcguines.github.io/todo-list-ers/
 
 ## Available Scripts
 
