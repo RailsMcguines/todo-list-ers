@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/ToDoList.css'
 
-
+var filtredData
 
 export class ToDoList extends React.Component{
     constructor(props){
@@ -77,7 +77,15 @@ export class ToDoList extends React.Component{
             })   
         }
     }  
-   
+    // Método que elimina un item
+    deleteItem(item){   
+        filtredData = this.state.tasks.filter((items)=>{
+            return items !== item
+        })  
+        this.setState({
+            tasks:filtredData
+        })    
+    }
     render(){
         return(
             <>           
@@ -152,7 +160,7 @@ export class ToDoList extends React.Component{
                             <td>{campo[1]}</td>
                             <td>{campo[2]}</td>
                             <td>{campo[3]}</td>
-                            <td className="centro"><button className="btn btn-danger btn-sm" >Eliminar</button></td>                         
+                            <td className="centro"><button className="btn btn-danger btn-sm" onClick={(e)=>this.deleteItem(campo)}>Eliminar</button></td>                         
                         </tr>                 
                     
                      }) }
